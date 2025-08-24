@@ -3079,4 +3079,36 @@ const products = [
   }
 ]
 
+products.push({
+  _id: "999e887d05f9ee1717e13999",
+  sku: "FSHN12345",
+  img: "https://i.ibb.co/0jqHpnp/fashion-product.png",
+  title: "Trendy Fashion Shirt",
+  slug: "trendy-fashion-shirt",
+  unit: "1pc",
+  imageURLs: [
+    {
+      color: { name: "Blue", clrCode: "#0000FF" },
+      img: "https://i.ibb.co/0jqHpnp/fashion-product.png"
+    }
+  ],
+  parent: "Shirts",
+  children: "Men",
+  price: 49,
+  discount: 10,
+  quantity: 100,
+  brand: { name: "LookFame", id: "6412eae89c2275a25d09541d" },
+  category: { name: "Shirts", id: "6419723bd7dc5155c04350d3" },
+  status: "in-stock",
+  reviews: [],
+  productType: "fashion",
+  description: "A stylish blue shirt for men, perfect for any occasion.",
+  additionalInformation: [
+    { key: "Material", value: "Cotton" },
+    { key: "Fit", value: "Regular" }
+  ],
+  featured: true,
+  sellCount: 0,
+  tags: ["shirt", "fashion"]
+});
 module.exports = products;
